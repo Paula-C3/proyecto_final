@@ -1,0 +1,602 @@
+[
+  {
+    "endTime" : "2023-11-01 05:48",
+    "artistName" : "Thomas Tempest",
+    "trackName" : "Summer Breeze",
+    "msPlayed" : 165451
+  },
+  {
+    "endTime" : "2023-11-01 05:52",
+    "artistName" : "Lawson Rollins",
+    "trackName" : "Sunlight Bossa Nova",
+    "msPlayed" : 245069
+  },
+  {
+    "endTime" : "2023-11-01 05:55",
+    "artistName" : "Gabriel da Rosa",
+    "trackName" : "Jasmim Parte 1",
+    "msPlayed" : 199693
+  },
+  {
+    "endTime" : "2023-11-01 05:58",
+    "artistName" : "Dean Martin",
+    "trackName" : "Everybody Loves Somebody - Dream with Dean Version",
+    "msPlayed" : 188040
+  },
+  {
+    "endTime" : "2023-11-01 06:01",
+    "artistName" : "extremely bad man",
+    "trackName" : "Stay, Pt. 2",
+    "msPlayed" : 146414
+  },
+  {
+    "endTime" : "2023-11-01 06:04",
+    "artistName" : "Hanni El Khatib",
+    "trackName" : "ALIVE",
+    "msPlayed" : 175330
+  },
+  {
+    "endTime" : "2023-11-01 06:07",
+    "artistName" : "Paola Navarrete",
+    "trackName" : "Cómplices",
+    "msPlayed" : 219394
+  },
+  {
+    "endTime" : "2023-11-01 06:11",
+    "artistName" : "Paola Navarrete",
+    "trackName" : "Eres (Como El Mar)",
+    "msPlayed" : 208749
+  },
+  {
+    "endTime" : "2023-11-01 06:14",
+    "artistName" : "Luz Pinos",
+    "trackName" : "¿Para Qué?",
+    "msPlayed" : 210111
+  },
+  {
+    "endTime" : "2023-11-01 06:21",
+    "artistName" : "Rousseau",
+    "trackName" : "Moonlight Sonata (1st Movement)",
+    "msPlayed" : 419577
+  },
+  {
+    "endTime" : "2023-11-01 06:27",
+    "artistName" : "Felix Laband",
+    "trackName" : "Falling off a Horse",
+    "msPlayed" : 323893
+  },
+  {
+    "endTime" : "2023-11-01 06:30",
+    "artistName" : "Aphex Twin",
+    "trackName" : "IZ-US",
+    "msPlayed" : 177266
+  },
+  {
+    "endTime" : "2023-11-01 06:33",
+    "artistName" : "Cults",
+    "trackName" : "Never Saw The Point",
+    "msPlayed" : 182160
+  },
+  {
+    "endTime" : "2023-11-01 06:38",
+    "artistName" : "Thom Yorke",
+    "trackName" : "Dawn Chorus",
+    "msPlayed" : 323080
+  },
+  {
+    "endTime" : "2023-11-01 06:42",
+    "artistName" : "Aphex Twin",
+    "trackName" : "Actium",
+    "msPlayed" : 243462
+  },
+  {
+    "endTime" : "2023-11-01 06:45",
+    "artistName" : "Lisa Ono",
+    "trackName" : "遠く離れても",
+    "msPlayed" : 199933
+  },
+  {
+    "endTime" : "2023-11-01 06:49",
+    "artistName" : "Lamp",
+    "trackName" : "二十歳の恋",
+    "msPlayed" : 193466
+  },
+  {
+    "endTime" : "2023-11-01 06:51",
+    "artistName" : "The Pied Pipers",
+    "trackName" : "Dream",
+    "msPlayed" : 168158
+  },
+  {
+    "endTime" : "2023-11-01 06:54",
+    "artistName" : "Isadora",
+    "trackName" : "Caminando",
+    "msPlayed" : 168133
+  },
+  {
+    "endTime" : "2023-11-01 06:58",
+    "artistName" : "Lisa Ono",
+    "trackName" : "テ・キエロ・ディヒステ",
+    "msPlayed" : 236106
+  },
+  {
+    "endTime" : "2023-11-01 07:02",
+    "artistName" : "Dre'es",
+    "trackName" : "Warm",
+    "msPlayed" : 255465
+  },
+  {
+    "endTime" : "2023-11-01 07:05",
+    "artistName" : "Eduardo Mateo",
+    "trackName" : "Señora Diana La Ví",
+    "msPlayed" : 165998
+  },
+  {
+    "endTime" : "2023-11-01 07:14",
+    "artistName" : "João Gilberto",
+    "trackName" : "Besame Mucho",
+    "msPlayed" : 526200
+  },
+  {
+    "endTime" : "2023-11-01 07:17",
+    "artistName" : "Armando Trovajoli",
+    "trackName" : "L'amore dice ciao - From La matriarca",
+    "msPlayed" : 195101
+  },
+  {
+    "endTime" : "2023-11-01 07:22",
+    "artistName" : "Empire of the Sun",
+    "trackName" : "We Are The People",
+    "msPlayed" : 267373
+  },
+  {
+    "endTime" : "2023-11-01 07:26",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Pink + White",
+    "msPlayed" : 4181
+  },
+  {
+    "endTime" : "2023-11-01 07:26",
+    "artistName" : "Dominic Fike",
+    "trackName" : "Babydoll",
+    "msPlayed" : 10599
+  },
+  {
+    "endTime" : "2023-11-01 07:26",
+    "artistName" : "Frank Ocean",
+    "trackName" : "White Ferrari",
+    "msPlayed" : 8161
+  },
+  {
+    "endTime" : "2023-11-01 07:26",
+    "artistName" : "Tame Impala",
+    "trackName" : "Feels Like We Only Go Backwards",
+    "msPlayed" : 7755
+  },
+  {
+    "endTime" : "2023-11-01 07:26",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Pink Matter",
+    "msPlayed" : 9369
+  },
+  {
+    "endTime" : "2023-11-01 07:26",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Ivy",
+    "msPlayed" : 236543
+  },
+  {
+    "endTime" : "2023-11-01 07:26",
+    "artistName" : "Kanye West",
+    "trackName" : "Runaway",
+    "msPlayed" : 5758
+  },
+  {
+    "endTime" : "2023-11-01 07:27",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Nights",
+    "msPlayed" : 18413
+  },
+  {
+    "endTime" : "2023-11-01 07:27",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Ivy",
+    "msPlayed" : 6489
+  },
+  {
+    "endTime" : "2023-11-01 07:27",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Pyramids",
+    "msPlayed" : 8521
+  },
+  {
+    "endTime" : "2023-11-01 07:33",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Thinkin Bout You",
+    "msPlayed" : 21884
+  },
+  {
+    "endTime" : "2023-11-01 14:30",
+    "artistName" : "Soda Stereo",
+    "trackName" : "En la Ciudad de la Furia - MTV Unplugged",
+    "msPlayed" : 522000
+  },
+  {
+    "endTime" : "2023-11-01 14:33",
+    "artistName" : "Mary Jane Girls",
+    "trackName" : "All Night Long",
+    "msPlayed" : 12427
+  },
+  {
+    "endTime" : "2023-11-01 14:37",
+    "artistName" : "Jimi Hendrix",
+    "trackName" : "All Along the Watchtower",
+    "msPlayed" : 240800
+  },
+  {
+    "endTime" : "2023-11-01 14:38",
+    "artistName" : "LATIN MAFIA",
+    "trackName" : "Se fue la luz",
+    "msPlayed" : 68690
+  },
+  {
+    "endTime" : "2023-11-01 14:41",
+    "artistName" : "THE VICTOR MINI",
+    "trackName" : "Lo Que Tiene",
+    "msPlayed" : 199862
+  },
+  {
+    "endTime" : "2023-11-01 14:42",
+    "artistName" : "Gustavo Cerati",
+    "trackName" : "Adiós",
+    "msPlayed" : 60074
+  },
+  {
+    "endTime" : "2023-11-01 14:46",
+    "artistName" : "Alice Phoebe Lou",
+    "trackName" : "Paper Castles",
+    "msPlayed" : 234871
+  },
+  {
+    "endTime" : "2023-11-01 14:50",
+    "artistName" : "alt-J",
+    "trackName" : "Breezeblocks",
+    "msPlayed" : 227080
+  },
+  {
+    "endTime" : "2023-11-01 14:54",
+    "artistName" : "León Larregui",
+    "trackName" : "Mar",
+    "msPlayed" : 258373
+  },
+  {
+    "endTime" : "2023-11-01 15:00",
+    "artistName" : "Blur",
+    "trackName" : "Beetlebum - 2012 Remaster",
+    "msPlayed" : 305213
+  },
+  {
+    "endTime" : "2023-11-01 15:05",
+    "artistName" : "Jorge Drexler",
+    "trackName" : "Las transeúntes",
+    "msPlayed" : 303080
+  },
+  {
+    "endTime" : "2023-11-01 15:09",
+    "artistName" : "Soda Stereo",
+    "trackName" : "Fue - Remasterizado 2007",
+    "msPlayed" : 232933
+  },
+  {
+    "endTime" : "2023-11-01 15:12",
+    "artistName" : "Joji",
+    "trackName" : "SLOW DANCING IN THE DARK",
+    "msPlayed" : 209273
+  },
+  {
+    "endTime" : "2023-11-01 15:15",
+    "artistName" : "Adolescent's Orquesta",
+    "trackName" : "Virgen",
+    "msPlayed" : 17486
+  },
+  {
+    "endTime" : "2023-11-01 15:15",
+    "artistName" : "Mellow Fellow",
+    "trackName" : "How Was Your Day?",
+    "msPlayed" : 188786
+  },
+  {
+    "endTime" : "2023-11-01 15:19",
+    "artistName" : "Metro Boomin",
+    "trackName" : "Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff)",
+    "msPlayed" : 189426
+  },
+  {
+    "endTime" : "2023-11-01 15:21",
+    "artistName" : "R.E.M.",
+    "trackName" : "Losing My Religion",
+    "msPlayed" : 165913
+  },
+  {
+    "endTime" : "2023-11-01 15:22",
+    "artistName" : "Natalia Lafourcade",
+    "trackName" : "Te Quiero Ver",
+    "msPlayed" : 5248
+  },
+  {
+    "endTime" : "2023-11-01 15:22",
+    "artistName" : "TV Girl",
+    "trackName" : "Lovers Rock",
+    "msPlayed" : 8554
+  },
+  {
+    "endTime" : "2023-11-01 15:30",
+    "artistName" : "Pet Shop Boys",
+    "trackName" : "West End Girls",
+    "msPlayed" : 206458
+  },
+  {
+    "endTime" : "2023-11-01 15:30",
+    "artistName" : "Makoto Matsushita",
+    "trackName" : "Business Man, Pt. 1 - 2018 Remaster",
+    "msPlayed" : 2810
+  },
+  {
+    "endTime" : "2023-11-01 15:35",
+    "artistName" : "Dstance",
+    "trackName" : "Niña Bonita - Acústico",
+    "msPlayed" : 293376
+  },
+  {
+    "endTime" : "2023-11-01 15:41",
+    "artistName" : "Masayoshi Takanaka",
+    "trackName" : "SPEED OF LOVE",
+    "msPlayed" : 244533
+  },
+  {
+    "endTime" : "2023-11-01 15:45",
+    "artistName" : "DJ Snake",
+    "trackName" : "Middle",
+    "msPlayed" : 220573
+  },
+  {
+    "endTime" : "2023-11-01 15:48",
+    "artistName" : "MF DOOM",
+    "trackName" : "Rapp Snitch Knishes feat. Mr. Fantastik",
+    "msPlayed" : 172893
+  },
+  {
+    "endTime" : "2023-11-01 15:49",
+    "artistName" : "Arlo Parks",
+    "trackName" : "Hope",
+    "msPlayed" : 90013
+  },
+  {
+    "endTime" : "2023-11-01 15:50",
+    "artistName" : "Paulo Londra",
+    "trackName" : "Chica Paranormal",
+    "msPlayed" : 11520
+  },
+  {
+    "endTime" : "2023-11-01 15:53",
+    "artistName" : "Paulo Londra",
+    "trackName" : "Me Tiene Mal",
+    "msPlayed" : 210942
+  },
+  {
+    "endTime" : "2023-11-01 15:57",
+    "artistName" : "Guardarraya",
+    "trackName" : "Abre los Ojos",
+    "msPlayed" : 243493
+  },
+  {
+    "endTime" : "2023-11-01 16:00",
+    "artistName" : "Wayne Shorter",
+    "trackName" : "Speak No Evil - Remastered 1998 / Rudy Van Gelder Edition",
+    "msPlayed" : 2040
+  },
+  {
+    "endTime" : "2023-11-01 16:00",
+    "artistName" : "Kanye West",
+    "trackName" : "New Again",
+    "msPlayed" : 175464
+  },
+  {
+    "endTime" : "2023-11-01 16:04",
+    "artistName" : "1915",
+    "trackName" : "Policía",
+    "msPlayed" : 234675
+  },
+  {
+    "endTime" : "2023-11-01 16:08",
+    "artistName" : "Groove Theory",
+    "trackName" : "Tell Me",
+    "msPlayed" : 236066
+  },
+  {
+    "endTime" : "2023-11-01 16:11",
+    "artistName" : "Sui Generis",
+    "trackName" : "Quizás, Porque",
+    "msPlayed" : 132973
+  },
+  {
+    "endTime" : "2023-11-01 16:14",
+    "artistName" : "Arctic Monkeys",
+    "trackName" : "Snap Out Of It",
+    "msPlayed" : 193030
+  },
+  {
+    "endTime" : "2023-11-01 16:19",
+    "artistName" : "Thin Lizzy",
+    "trackName" : "Slow Blues",
+    "msPlayed" : 278264
+  },
+  {
+    "endTime" : "2023-11-01 20:57",
+    "artistName" : "Cuarteto Ricacosa",
+    "trackName" : "Milongueando",
+    "msPlayed" : 322755
+  },
+  {
+    "endTime" : "2023-11-01 21:05",
+    "artistName" : "Soda Stereo",
+    "trackName" : "En la Ciudad de la Furia - MTV Unplugged",
+    "msPlayed" : 522000
+  },
+  {
+    "endTime" : "2023-11-01 21:09",
+    "artistName" : "Les Petits Bâtards",
+    "trackName" : "Sol",
+    "msPlayed" : 207568
+  },
+  {
+    "endTime" : "2023-11-01 21:10",
+    "artistName" : "Yuji Ohno",
+    "trackName" : "BOSSA DIAMANTE",
+    "msPlayed" : 52335
+  },
+  {
+    "endTime" : "2023-11-01 21:27",
+    "artistName" : "Cuarteto Ricacosa",
+    "trackName" : "Milongueando",
+    "msPlayed" : 640
+  },
+  {
+    "endTime" : "2023-11-01 21:34",
+    "artistName" : "Yuji Ohno",
+    "trackName" : "BOSSA DIAMANTE",
+    "msPlayed" : 370933
+  },
+  {
+    "endTime" : "2023-11-01 22:03",
+    "artistName" : "flipturn",
+    "trackName" : "Sad Disco",
+    "msPlayed" : 227213
+  },
+  {
+    "endTime" : "2023-11-01 22:07",
+    "artistName" : "Montevideo Blues",
+    "trackName" : "Pongamos Muchas Balas al Fusil",
+    "msPlayed" : 236173
+  },
+  {
+    "endTime" : "2023-11-01 22:07",
+    "artistName" : "Timmies",
+    "trackName" : "Tell Me Why I'm Waiting",
+    "msPlayed" : 21230
+  },
+  {
+    "endTime" : "2023-11-01 22:11",
+    "artistName" : "Los Mesoneros",
+    "trackName" : "Te Lo Advertí",
+    "msPlayed" : 213293
+  },
+  {
+    "endTime" : "2023-11-01 22:16",
+    "artistName" : "Soda Stereo",
+    "trackName" : "Estoy Azulado - Remasterizado 2007",
+    "msPlayed" : 317013
+  },
+  {
+    "endTime" : "2023-11-01 22:32",
+    "artistName" : "Cuco",
+    "trackName" : "Lover Is a Day",
+    "msPlayed" : 885623
+  },
+  {
+    "endTime" : "2023-11-01 22:36",
+    "artistName" : "MGMT",
+    "trackName" : "Indie Rokkers",
+    "msPlayed" : 265880
+  },
+  {
+    "endTime" : "2023-11-02 02:13",
+    "artistName" : "L'Officina Della Camomilla",
+    "trackName" : "Un fiore per coltello",
+    "msPlayed" : 420230
+  },
+  {
+    "endTime" : "2023-11-02 02:24",
+    "artistName" : "Jeff Buckley",
+    "trackName" : "Lover, You Should've Come Over",
+    "msPlayed" : 643050
+  },
+  {
+    "endTime" : "2023-11-02 15:24",
+    "artistName" : "Kanye West",
+    "trackName" : "Flashing Lights",
+    "msPlayed" : 3134
+  },
+  {
+    "endTime" : "2023-11-02 15:24",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Pink Matter",
+    "msPlayed" : 3866
+  },
+  {
+    "endTime" : "2023-11-02 15:25",
+    "artistName" : "Dominic Fike",
+    "trackName" : "Babydoll",
+    "msPlayed" : 97960
+  },
+  {
+    "endTime" : "2023-11-02 15:35",
+    "artistName" : "Kanye West",
+    "trackName" : "Runaway",
+    "msPlayed" : 547733
+  },
+  {
+    "endTime" : "2023-11-02 15:38",
+    "artistName" : "Tame Impala",
+    "trackName" : "Feels Like We Only Go Backwards",
+    "msPlayed" : 192960
+  },
+  {
+    "endTime" : "2023-11-02 15:42",
+    "artistName" : "Empire of the Sun",
+    "trackName" : "We Are The People",
+    "msPlayed" : 267373
+  },
+  {
+    "endTime" : "2023-11-02 15:44",
+    "artistName" : "Childish Gambino",
+    "trackName" : "Les",
+    "msPlayed" : 129248
+  },
+  {
+    "endTime" : "2023-11-02 15:48",
+    "artistName" : "Lisa Ono",
+    "trackName" : "Garota de Ipanema - 2006 Version",
+    "msPlayed" : 210033
+  },
+  {
+    "endTime" : "2023-11-02 15:51",
+    "artistName" : "Frank Ocean",
+    "trackName" : "Pink Matter",
+    "msPlayed" : 2705
+  },
+  {
+    "endTime" : "2023-11-02 15:52",
+    "artistName" : "Wings",
+    "trackName" : "Reception - Remastered 1993",
+    "msPlayed" : 38939
+  },
+  {
+    "endTime" : "2023-11-02 21:49",
+    "artistName" : "Jeff Buckley",
+    "trackName" : "Lover, You Should've Come Over",
+    "msPlayed" : 404213
+  },
+  {
+    "endTime" : "2023-11-02 21:52",
+    "artistName" : "bôa",
+    "trackName" : "Duvet",
+    "msPlayed" : 203600
+  },
+  {
+    "endTime" : "2023-11-02 21:53",
+    "artistName" : "Cass McCombs",
+    "trackName" : "Absentee",
+    "msPlayed" : 84264
+  }
+]
