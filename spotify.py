@@ -17,4 +17,9 @@ len(albums['albums'])
 len(albums['albums']['items'])
 albums['albums']['items'][0]
 
-print(albums)
+albums_list = albums['albums']['items']
+if len(albums_list) > 0:
+    for album in albums_list:
+        print(album['name'] + " - By - " + album['artists'][0]['name'])
+        print("Album ID: " + album['id'] + " / Artist ID - " + album['artists'][0]['id'])
+        print("------")
