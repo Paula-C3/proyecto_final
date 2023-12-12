@@ -1,7 +1,5 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
-from dotenv import load_dotenv
-import os
 import base64
 from requests import post, get
 import json
@@ -16,7 +14,7 @@ sp.me
 # --------------------- buscar albums con palabra ------------------------
 
 # en lugar de buscar albums solo con "shape" podemos prompt al user :)
-palabra = input(print("Buscar por palabra: "))
+palabra = input(print("Buscar albums con la palabra: "))
 albums = sp.search(q='album:'+ palabra ,type='album', limit=20)
 len(albums['albums'])
 len(albums['albums']['items'])
@@ -65,7 +63,7 @@ def search_artist(token, artist_name):
     return json_result[0]
 
 token = get_token()   
-artist_result = search_artist(token, input("ingresa un artista: "))
+artist_result = search_artist(token, input("Buscar albums por artista: "))
 artist_id = artist_result["id"]
 artist_uri = 'spotify:artist:' + artist_id
 results = sp.artist_albums(artist_uri, album_type='album', limit=20)
@@ -77,7 +75,7 @@ for album in albums:
 
 
 # ------------------- buscar canciones ----------------------
-cancion = input(print("Buscar cancion: "))
+cancion = input(print("Buscar canciones con el nombre: "))
 results = sp.search(q='track:'+ cancion, type='track', limit=20)
 len(results)
 results['tracks']
@@ -91,7 +89,7 @@ if len(items_in_tracks) > 0:
         print("Track ID: " + item['id'] + " / Artist ID - " + item['artists'][0]['id'])
         print("------")
 
-#--------------------------------------------------------------
+#--------------------------------------------------------------------
 # ------------------- caracteristicas de audio ----------------------
 
 track_features = sp.audio_features('7qiZfU4dY1lWllzX7mPBI3')
