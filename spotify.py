@@ -5,7 +5,6 @@ import os
 import base64
 from requests import post, get
 import json
-import pandas as pd
 
 SPOTIPY_CLIENT_ID='e1379e41dc9545dfa6d3d005676da056'
 SPOTIPY_CLIENT_SECRET='6bad838d15514a2c903037b6ee6f5bbc'
@@ -64,7 +63,8 @@ def search_artist(token, artist_name):
         print("No hay un artista con ese nombre :(")
         return None
     return json_result[0]
-    
+
+token = get_token()   
 artist_result = search_artist(token, input("ingresa un artista: "))
 artist_id = artist_result["id"]
 artist_uri = 'spotify:artist:' + artist_id
