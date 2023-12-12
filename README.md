@@ -8,6 +8,11 @@
   <li><b>API</b><br>
   Esta es la documentacion de como solicitar todo tipo de datos desde spotify (i.e artistas, albums, canciones ...)
   https://developer.spotify.com/documentation/web-api/reference/get-an-artists-top-tracks</li>
+
+  <li><b>CodeSpaces</b><br>
+  Aqui creo que podemos programar de manera simultanea y despues copiar y pegar :D
+  https://codeshare.io/6p6ozO
+  </li>
 </ol>
 
 <h3>Documentos</h3>
