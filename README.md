@@ -5,6 +5,9 @@
   <li><b>Tutorial</b><br>
   https://www.youtube.com/watch?v=oNyaiWgqKDI</li><br>
 
+  Para comparar dos canciones: https://github.com/prodramp/publiccode/blob/master/machine_learning/spotify-projects/1-Albums-tracks-audiofeatures.ipynb<br>
+  Para recomendar canciones: https://github.com/prodramp/publiccode/blob/master/machine_learning/spotify-projects/2-Song-recommendation.ipynb<br>
+
   <li><b>API</b><br>
   Esta es la documentacion de como solicitar todo tipo de datos desde spotify (i.e artistas, albums, canciones ...)
   https://developer.spotify.com/documentation/web-api/reference/get-an-artists-top-tracks</li><br>
