@@ -1,6 +1,7 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import base64
+import pandas as pd
 from requests import post, get
 import json
 
@@ -92,12 +93,12 @@ if len(items_in_tracks) > 0:
 #--------------------------------------------------------------------
 # ------------------- caracteristicas de audio ----------------------
 
-track_features = sp.audio_features('7qiZfU4dY1lWllzX7mPBI3')
+song_id = input(print("Pega el ID de la cancion: "))
+track_features = sp.audio_features(song_id)
 track_features
-import pandas as pd
 df = pd.DataFrame(track_features, index=[0])
-df_features = df.loc[: ,['acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness', 'valence']]
-df_features
+df_features = df.loc[:, ['acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness', 'speechiness', 'valence']]
+print(df_features)
 
 def feature_plot(features):
     #Import Libraries for Feature plot
