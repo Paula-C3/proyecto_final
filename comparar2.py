@@ -14,7 +14,8 @@ auth_manager = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secr
 sp = spotipy.Spotify(auth_manager=auth_manager)
 sp.me
 
-# ------------------- buscar canciones ----------------------
+# ------------------------ CANCION 1 -----------------------------
+# ------------------- buscar cancion -----------------------------
 cancion = input(print("Buscar canciones con el nombre: "))
 results = sp.search(q='track:' + cancion, type='track', limit=20)
 len(results)
@@ -29,7 +30,7 @@ if len(items_in_tracks) > 0:
         print("Track ID: " + item['id'] + " / Artist ID - " + item['artists'][0]['id'])
         print("------")
 
-# ------------------- caracteristicas de audio 1 ----------------------
+# ------------------- caracteristicas de audio ----------------------
 song_id = input(print("Pega el ID de la cancion: "))
 track_features = sp.audio_features(song_id)
 track_features
@@ -71,6 +72,23 @@ def feature_plot(features):
 feature_plot(df_features)
 plt.show()
 
+# ------------------------ CANCION 2 -----------------------------
+# ------------------- buscar cancion -----------------------------
+cancion = input(print("Buscar canciones con el nombre: "))
+results = sp.search(q='track:' + cancion, type='track', limit=20)
+len(results)
+results['tracks']
+print(len(results['tracks']))
+len(results['tracks']['items'])
+results['tracks']['items']
+items_in_tracks = results['tracks']['items']
+if len(items_in_tracks) > 0:
+    for item in items_in_tracks:
+        print(item['name'] + " - By - " + item['artists'][0]['name'])
+        print("Track ID: " + item['id'] + " / Artist ID - " + item['artists'][0]['id'])
+        print("------")
+
+
 def get_features(track_id):
     track_features_x = sp.audio_features(track_id)
     dfx = pd.DataFrame(track_features_x, index=[0])
@@ -84,6 +102,7 @@ df_features
 list(df_features)[:]
 list(df2)[:]
 
+# ------------------- caracteristicas de audio ----------------------
 def feature_plot2(features1,features2):
     #Import Libraries for Feature plot
     import numpy as np
