@@ -21,3 +21,4 @@ most_popular=df_streaming.query('popularity>90', inplace=False).sort_values('pop
 most_popular[:10]
 
 df_streaming.set_index("release_date", inplace=True)
+
