@@ -16,3 +16,5 @@ albums = sp.search(q='album:'+ palabra ,type='album', limit=20)
 len(albums['albums'])
 len(albums['albums']['items'])
 albums['albums']['items'][0]
+
+print(albums)
