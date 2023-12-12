@@ -128,8 +128,8 @@ def feature_plot(features):
 
     plt.legend(loc='best', bbox_to_anchor=(0.1, 0.1))
 
-caracteristicas = feature_plot(df_features)
-print(caracteristicas)
+feature_plot(df_features)
+plt.show()
 
 
 
