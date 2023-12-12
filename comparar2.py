@@ -2,9 +2,6 @@ import matplotlib.pyplot as plt
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
-import base64
-from requests import post, get
-import json
 
 
 SPOTIPY_CLIENT_ID = 'e1379e41dc9545dfa6d3d005676da056'
