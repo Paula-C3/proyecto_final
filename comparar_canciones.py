@@ -34,28 +34,29 @@ for i, item in enumerate(track_data['tracks']['items']):
     popularity = item['popularity']
     track_result.append((i, track['artists'][0]['name'], track['name'], track_id, track_name, track['release_date'], popularity))
 track_result
-track_df = pd.DataFrame(track_result, index=None, columns=('Item', 'Artist', 'Album Name', 'Id', 'Song Name', 'Release Date', 'Popularity'))
-track_df
+track def = pd.DataFrame(track_result, index=None, columns=('Item', 'Artist', 'Album Name', 'Id', 'Song Name', 'Release Date', 'Popularity'))
+track def
 features_df = pd.DataFrame()
 for id in track_df['Id'].iteritems():
     track_id = id[1]
     audio_features = sp.audio_features(track_id)
     local_features = pd.DataFrame(audio_features, index=[0])
-    features_df = features_df.append(local_features)
-features_df
-final_df = track_df.merge(features_df, left_on="Id", right_on="id")
-final_df
-final_df_sorted = final_df.sort_values(by=['Popularity'], ascending=False)
-final_df_sorted
+    features def = features_df.append(local_features)
+features def
+final def = track_df.merge(features_df, left_on="Id", right_on="id")
+final def
+final def sorted = final_df.sort_values(by=['Popularity'], ascending=False)
+final def sorted
 feature_name = "liveness"
-df_plot = final_df_sorted[['Artist', 'Album Name', 'Song Name', 'Release Date', 'Popularity', f'{feature_name}']]
-df_plot
+
+def plot = final_df_sorted[['Artist', 'Album Name', 'Song Name', 'Release Date', 'Popularity', f'{feature_name}']]
+def plot
 
 plt.figure(figsize=(15, 6), facecolor=(.9, .9, .9))
     
-x = df_plot['Song Name']
-y = df_plot[feature_name]
-s = df_plot['Popularity']*30
+x = def plot['Song Name']
+y = def plot[feature_name]
+s = def plot['Popularity']*30
     
 # color_labels = reco_df['explicit'].unique()
 # rgb_values = sns.color_palette("Set1", 8)
