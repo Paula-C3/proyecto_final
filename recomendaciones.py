@@ -4,8 +4,8 @@ import base64
 import requests
 import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
 import seaborn as sns
+import numpy as np
 import json
 
 SPOTIPY_CLIENT_ID='e1379e41dc9545dfa6d3d005676da056'
@@ -75,7 +75,6 @@ recolist[0]
 
 recommendation_result = pd.DataFrame(recolist)
 recommendation_result
-
 reco_df = recommendation_result[['name', 'explicit', 'duration_ms', 'popularity']]
 # 'release_date'
 
@@ -89,22 +88,22 @@ y = reco_df['duration_ms']
 s = reco_df['popularity']
     
 plt.scatter(x, y, s, alpha=0.7) # c=reco_df['explicit']
-# show the graph
+plt.xticks(rotation=90)
+plt.legend()
 plt.show()
 
 reco_df['duration_min'] = round(reco_df['duration_ms'] / 1000, 0)
 reco_df["popularity_range"] = reco_df["popularity"] - (reco_df['popularity'].min() - 1)
 reco_df
 
-# Try:
-# reco_df["popularity"] - (reco_df['popularity'].min() - 1)
 
-plt.figure(figsize=(15, 6), facecolor=(.9, .9, .9))    
+reco_df["popularity"] - (reco_df['popularity'].min() - 1)
+plt.figure(figsize=(15, 6), facecolor=(.9, .9, .9))
 
 x = reco_df['name']
 y = reco_df['duration_min']
 s = reco_df['popularity_range']*20
-    
+
 color_labels = reco_df['explicit'].unique()
 rgb_values = sns.color_palette("Set1", 8)
 color_map = dict(zip(color_labels, rgb_values))
