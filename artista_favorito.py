@@ -63,27 +63,23 @@ def top_tracks_by_artist(token, artist_id):
 
 # ---------------------- input al usuario -----------------------------
 token = get_token()
-artist_result = search_artist(token, input("ingresa un artista: "))
+artist_result = search_artist(token, input("Ingresa un artista: "))
 artist_id = artist_result["id"]
 
 print(artist_id)
 top_tracks = top_tracks_by_artist(token, artist_id)
-tracks = get_tracks(token, artist_id)
 
 print("Las canciones mas ppopulares son: ")
 for idx, song in enumerate(top_tracks):
     print(f" {idx + 1}. {song['name']}")
 
 
-df = pd.DataFrame(tracks)
-df.to_csv("tracks.csv", index=False)
+# --------------------- buscar albums por artista ----------------------
+print("Sus albumes son: ")
+artist_uri = 'spotify:artist:' + artist_id
+results = sp.artist_albums(artist_uri, album_type='album', limit=20)
+albums = results['items']
 
-df_songs = pd.read_csv("tracks.csv")
-df_songs.head()
-
-pd. isnull(df_songs).sum()
-df_songs.info()
-
-sorted_df = df_songs.sort_values('duration_ms', ascending=True).head(10)
-print("Canciones por duracion: ")
-print(sorted_df)
+albums[0]['artists'][0]['name']
+for album in albums:
+    print(album['name'] + " (Singer: " + album['artists'][0]['name'] + " )")
