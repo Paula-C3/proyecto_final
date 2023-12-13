@@ -1,9 +1,8 @@
-import matplotlib.pyplot as plt
+
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 import base64
-import pandas as pd
 from requests import post, get
 import json
 
