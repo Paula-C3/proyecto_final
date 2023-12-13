@@ -16,7 +16,7 @@ sp.me
 # ------------------------------------------------------------------------------------------
 # -------------------------------comparación entre canciones------------------------------
 
-palabra input(print("Ingresa la palabra que crees que más se repite en los títulos de tus canciones: "))
+palabra = input(print("Ingresa la palabra que crees que más se repite en los títulos de tus canciones: "))
 track_data = sp.search(q='track:'+ palabra, type='track', limit=20)
 track_result = []
 
