@@ -42,7 +42,6 @@ return final
 final def sorted = final_df.sort_values(by=['Popularity'], ascending=False)
 return final sorted
 
-feature_name = "liveness"
 def plot = final_df_sorted[['Artist', 'Album Name', 'Song Name', 'Release Date', 'Popularity', f'{feature_name}']]
 return def
 
